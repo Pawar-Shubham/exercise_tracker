@@ -8,7 +8,7 @@ app.secret_key = 'your_secret_key'  # For session management
 
 video_capture = None
 tracker = None  # Exercise tracker instance
-filename = ["dataset\push-up_3.mp4","dataset\plank_5.mp4","dataset\pull up_1.mp4","dataset\hammer curl_2.MOV","dataset\\tricep dips_11.mp4","dataset\\tricep pushdown_40.mp4"]
+filename = ["push-up_3.mp4","plank_5.mp4","pull up_1.mp4","hammer curl_8.mp4","tricep dips_11.mp4","tricep pushdown_40.mp4"]
 exercises = None
 def generate_frames():
     global video_capture, tracker
